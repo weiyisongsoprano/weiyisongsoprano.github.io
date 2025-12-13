@@ -219,3 +219,29 @@ nav_order: 7
 <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
 
 <script src="{{ '/assets/js/word-cloud.js' | relative_url }}"></script>
+
+---
+
+## 🌍 Visitors Around the World
+
+<div class="globe-section">
+  <div class="globe-wrapper">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=uzKn1_iPcr4O83gptLmo2I1y28EhQkGfoEbe1B1UOHY"></script>
+  </div>
+</div>
+
+<style>
+  .globe-section {
+    max-width: 200px;
+    margin: -90px auto 0 auto;
+    text-align: center;
+  }
+
+  .globe-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.5);
+    transform-origin: center center;
+  }
+</style>
