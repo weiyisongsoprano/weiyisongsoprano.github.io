@@ -67,10 +67,34 @@ nav_order: 8
         .contact-page-wrapper {
           padding: 2rem 1rem;
         }
-        
+
         .contact-layout {
           margin: 0 auto;
         }
+      }
+
+      /* Cormorant Garamond prose styling */
+      .contact-form-title {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        line-height: 1.3;
+      }
+
+      .contact-form-description {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.18rem;
+        font-weight: 400;
+        line-height: 1.9;
+        letter-spacing: 0.01em;
+      }
+
+      .contact-form label {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.04em;
       }
     </style>
 

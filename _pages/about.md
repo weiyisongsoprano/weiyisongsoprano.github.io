@@ -63,6 +63,15 @@ latest_posts:
   @media (max-width: 480px) {
     .bio-inline-figure { display: none; }
   }
+
+  /* Bio prose body text */
+  .post article .clearfix p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.18rem;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 0.01em;
+  }
 </style>
 
 Chinese soprano Weiyi Song strives to integrate innovative, transformative storytelling to make classical vocal music more engaging and accessible, drawing inspiration from music’s profound ability to connect and heal. 

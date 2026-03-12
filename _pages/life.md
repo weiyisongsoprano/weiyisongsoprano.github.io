@@ -27,12 +27,20 @@ nav_order: 7
     margin-top: 0;
     margin-bottom: 15px;
     color: linen;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
   }
 
   .input-section p {
     margin-bottom: 20px;
     color: var(--global-text-color);
     opacity: 0.8;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    letter-spacing: 0.01em;
   }
 
   .input-group {
@@ -99,6 +107,10 @@ nav_order: 7
     margin-top: 0;
     margin-bottom: 30px;
     color: var(--global-theme-color);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
   }
 
   #wordCloud {
@@ -157,7 +169,9 @@ nav_order: 7
     background: var(--global-code-bg-color);
     border-left: 4px solid var(--global-theme-color);
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 1rem;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.8;
     color: var(--global-text-color);
     opacity: 0.8;
   }
