@@ -232,7 +232,7 @@ nav_order: 7
 
 <style>
   .globe-section {
-    max-width: 200px;
+    max-width: 500px;
     margin: 4rem auto 2rem auto;
     text-align: center;
   }
@@ -241,8 +241,8 @@ nav_order: 7
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0.5);
+    transform: scale(0.8);
     transform-origin: center top;
-    margin-top: -40px;
+    margin-top: 0px;
   }
 </style>
