@@ -27,6 +27,31 @@ layout: none
         color: #fff;
       }
 
+      /* Gradient overlays for depth and text contrast */
+      .home-hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to right,
+          rgba(0,0,0,0.52) 0%,
+          rgba(0,0,0,0.18) 55%,
+          rgba(0,0,0,0.0) 100%
+        );
+        pointer-events: none;
+      }
+
+      .home-hero::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 220px;
+        background: linear-gradient(to top, rgba(0,0,0,0.45) 0%, transparent 100%);
+        pointer-events: none;
+      }
+
       /* Hide footer */
       footer {
         display: none !important;
@@ -40,6 +65,8 @@ layout: none
         max-width: 54rem;
         padding-left: 8%;
         padding-right: 2rem;
+        position: relative;
+        z-index: 1;
       }
 
       .home-hero .home-name {
@@ -49,7 +76,7 @@ layout: none
         font-style: italic;
         letter-spacing: 0.15rem;
         text-transform: none;
-        text-shadow: 0 3px 25px rgba(0,0,0,0.7), 0 1px 8px rgba(0,0,0,0.4);
+        text-shadow: 0 2px 20px rgba(0,0,0,0.5);
         margin: 0;
         line-height: 1.15;
         color: #f5ebe0;
@@ -61,17 +88,45 @@ layout: none
         font-weight: 300;
         font-style: italic;
         margin-top: 0.8rem;
-        opacity: 0.92;
-        letter-spacing: 0.15rem;
+        opacity: 0.88;
+        letter-spacing: 0.2rem;
         text-transform: none;
         color: #f5ebe0;
+      }
+
+      /* Scroll hint arrow */
+      .scroll-hint {
+        position: absolute;
+        bottom: 2.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        opacity: 0.45;
+        animation: scrollBounce 2.2s ease-in-out infinite;
+      }
+
+      .scroll-hint span {
+        display: block;
+        width: 1px;
+        height: 48px;
+        background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.7));
+      }
+
+      @keyframes scrollBounce {
+        0%, 100% { transform: translateX(-50%) translateY(0); opacity: 0.45; }
+        50%       { transform: translateX(-50%) translateY(8px); opacity: 0.7; }
       }
 
       @media (max-width: 768px) {
         .home-hero { height: calc(100vh - 56px); }
         .home-hero .home-inner { padding-left: 6%; }
-        .home-hero .home-name { font-size: 2.2rem; }
-        .home-hero .home-subtitle { font-size: 1rem; }
+        .home-hero .home-name { font-size: 2.4rem; }
+        .home-hero .home-subtitle { font-size: 1.05rem; }
+        .scroll-hint { display: none; }
       }
     </style>
 
@@ -88,6 +143,7 @@ layout: none
         </h1>
         <p class="home-subtitle">Singer, Actor</p>
       </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
     </div>
 
   </body>

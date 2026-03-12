@@ -52,8 +52,8 @@ latest_posts:
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 6px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    border-radius: 10px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.35);
   }
 
   @media (max-width: 900px) {

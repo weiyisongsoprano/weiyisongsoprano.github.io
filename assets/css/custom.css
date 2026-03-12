@@ -37,4 +37,12 @@ body, .navbar, .footer, .container, .post {
   font-style: italic;
   letter-spacing: 0.5px;
 }
+/* Nav link tabs: artistic bold font */
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-family: 'Cinzel', serif !important;
+  font-weight: 600 !important;
+  font-size: 0.78rem !important;
+  letter-spacing: 0.1em !important;
+}
+
 /* Portfolio trigger */

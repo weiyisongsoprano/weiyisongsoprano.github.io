@@ -1,0 +1,230 @@
+/*******************************************************************************
+ * Modern refinements — minimal/clean aesthetic, dark-only
+ * Imported last so these rules take precedence where needed.
+ ******************************************************************************/
+
+// ── Navbar: frosted glass ─────────────────────────────────────────────────────
+
+.navbar {
+  background-color: rgba(28, 28, 29, 0.80) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.055) !important;
+  box-shadow: none !important;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  transition: color 0.18s ease;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  font-weight: 500;
+}
+
+.navbar .navbar-brand {
+  letter-spacing: 0.01em;
+  font-size: 1rem;
+}
+
+// ── Typography ────────────────────────────────────────────────────────────────
+
+body {
+  line-height: 1.75;
+}
+
+p {
+  line-height: 1.75;
+}
+
+h1 {
+  letter-spacing: -0.03em;
+}
+
+h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+h4, h5, h6 {
+  letter-spacing: -0.01em;
+}
+
+// ── Links ─────────────────────────────────────────────────────────────────────
+
+a,
+table.table a {
+  transition: color 0.18s ease;
+}
+
+// ── Page / post header ────────────────────────────────────────────────────────
+
+.post-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+// Subtitle / description below title (about page uses .desc, page layout uses .post-description)
+.post-header .desc,
+.post-header .post-description {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  opacity: 0.5;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+// ── Cards ─────────────────────────────────────────────────────────────────────
+
+.card {
+  border-radius: 14px !important;
+  border: 1px solid rgba(255, 255, 255, 0.07) !important;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.40);
+    transform: translateY(-3px);
+  }
+}
+
+// ── Blockquote ────────────────────────────────────────────────────────────────
+
+blockquote:not(.block-tip):not(.block-warning):not(.block-danger) {
+  border-left-width: 3px;
+  border-radius: 0 8px 8px 0;
+  background: rgba(38, 152, 186, 0.05);
+  margin: 1.75rem 0;
+  padding: 1rem 1.5rem;
+}
+
+// ── Horizontal rules ──────────────────────────────────────────────────────────
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+// ── Post list (blog) ──────────────────────────────────────────────────────────
+
+.post-list {
+  li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
+
+// ── Blog header bar ───────────────────────────────────────────────────────────
+
+.header-bar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+
+  h1 {
+    font-size: 3.25rem;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+  }
+}
+
+// ── Tag/category list ─────────────────────────────────────────────────────────
+
+.tag-category-list {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+// ── Projects category heading ─────────────────────────────────────────────────
+
+.projects h2.category {
+  font-size: 0.7rem !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0.28) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding-top: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+// ── Publications year heading ─────────────────────────────────────────────────
+
+.publications h2.bibliography {
+  font-size: 0.7rem !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0.28) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+// ── Section h2 in post content ────────────────────────────────────────────────
+
+.post article h2:not(.bibliography):not(.category) {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+
+footer.sticky-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+// ── Back-to-top button ────────────────────────────────────────────────────────
+
+#back-to-top {
+  border-radius: 50% !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(38, 152, 186, 0.12) !important;
+  border: 1px solid rgba(38, 152, 186, 0.25) !important;
+  transition: background 0.22s ease, border-color 0.22s ease;
+
+  &:hover {
+    background: rgba(38, 152, 186, 0.28) !important;
+    border-color: rgba(38, 152, 186, 0.5) !important;
+  }
+}
+
+// ── Progress bar — thinner, sharper ──────────────────────────────────────────
+
+progress,
+.progress-container {
+  height: 2px;
+}
+
+// ── Pagination ────────────────────────────────────────────────────────────────
+
+.pagination .page-item .page-link {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+// ── Featured posts ────────────────────────────────────────────────────────────
+
+.featured-posts .card {
+  border-radius: 14px !important;
+}
