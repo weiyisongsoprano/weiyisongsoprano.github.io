@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Portfolio
+title: Opera & Performance
+nav_name: Opera
 permalink: /portfolio/
 description:
 nav: true

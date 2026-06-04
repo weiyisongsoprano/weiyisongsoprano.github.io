@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What You See in Me
+title: About Me
 permalink: /life/
 description: Echoes & Impressions
 nav: true
