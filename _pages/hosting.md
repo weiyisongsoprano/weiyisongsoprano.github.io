@@ -83,7 +83,7 @@ nav_order: 4
 
   <div class="gallery-card">
     <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/87uIlcHDKmc" title="Featured Audience Interaction with Lo Ta-yu (CCTV)"
+      <iframe src="https://www.youtube.com/embed/wcHQUVlkgGc" title="Featured Audience Interaction with Lo Ta-yu (CCTV)"
         loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="caption">CCTV · 与罗大佑现场互动 — Featured audience interaction with Lo Ta-yu</div>
