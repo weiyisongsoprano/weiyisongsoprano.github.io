@@ -217,7 +217,7 @@ nav_order: 3
         </div>
         <div class="video-card">
           <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/XgpBS4FTfFs" title="Performance 4"
+            <iframe src="https://www.youtube.com/embed/9U9n12FfLGM" title="Performance 4"
               loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -243,7 +243,7 @@ nav_order: 3
         </div>
         <div class="video-card video-duplicate">
           <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/XgpBS4FTfFs" title="Performance 4"
+            <iframe src="https://www.youtube.com/embed/9U9n12FfLGM" title="Performance 4"
               loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
