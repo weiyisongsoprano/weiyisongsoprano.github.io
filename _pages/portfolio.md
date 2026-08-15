@@ -223,7 +223,7 @@ nav_order: 3
         </div>
         <div class="video-card">
           <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/IfHzkWCyGKA" title="Performance 6"
+            <iframe src="https://www.youtube.com/embed/Xt7YBd2855I" title="Performance 6"
               loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -249,7 +249,7 @@ nav_order: 3
         </div>
         <div class="video-card video-duplicate">
           <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/IfHzkWCyGKA" title="Performance 6"
+            <iframe src="https://www.youtube.com/embed/Xt7YBd2855I" title="Performance 6"
               loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
