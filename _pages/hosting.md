@@ -4,7 +4,7 @@ title: Mandarin hosting & Recitation Highlights
 nav_name: Hosting
 permalink: /hosting/
 description:
-nav: true
+nav: false # Hidden from public nav — set back to `true` to republish the Hosting section
 nav_order: 4
 ---
 
