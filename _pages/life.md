@@ -3,7 +3,7 @@ layout: page
 title: About Me
 permalink: /life/
 description: Echoes & Impressions
-nav: true
+nav: false # Hidden from public nav — set back to `true` to republish the About Me page
 nav_order: 7
 ---
 
