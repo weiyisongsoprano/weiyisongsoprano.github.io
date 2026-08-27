@@ -76,7 +76,7 @@ latest_posts:
 
 Chinese soprano Weiyi Song strives to integrate innovative, transformative storytelling to make classical vocal music more engaging and accessible, drawing inspiration from music’s profound ability to connect and heal. 
 
-Weiyi’s artistry has taken her across continents and repertoires. Recent operatic engagements include Clorinda in the world premiere of Michael Ching’s Cinderella’s Royal Feast at the Savannah VOICE Festival and Susie in Jodi Goble’s The Eleanors at the National Opera Association. With Carnegie Mellon Opera she gave a powerful portrayal of Anne Sexton in Conrad Susa’s Transformations and brought sparkle and charm to Musetta (La Bohème), Lisette (La Rondine) and Adele (Die Fledermaus). With Pittsburgh Festival Opera she debuted as the Sandman and Dew Fairy in Hänsel and Gretel. 
+Weiyi’s artistry has taken her across continents and repertoires. This fall, she will appear as Musetta in Puccini’s La bohème with Boston Conservatory at Berklee. Recent operatic engagements include Clorinda in the world premiere of Michael Ching’s Cinderella’s Royal Feast at the Savannah VOICE Festival and Susie in Jodi Goble’s The Eleanors for the National Opera Association. With Carnegie Mellon Opera she gave a powerful portrayal of Anne Sexton in Conrad Susa’s Transformations and brought sparkle and charm to Musetta (La Bohème) and Lisette (La Rondine). With Pittsburgh Festival Opera she debuted as the Sandman and Dew Fairy in Hänsel and Gretel. 
 
 
 
@@ -91,7 +91,7 @@ As a concert soloist, Weiyi has appeared in the Savannah VOICE Festival’s Aria
 
 Her stage experience extends beyond opera; she has collaborated as a guest artist in the China Academy of Art Works Exhibition and has been invited to host national music events, including the Golden Bell Awards, China’s largest vocal competition. In 2018, she was featured in the music video Look in Your Eyes, sung by renowned tenor Yijie Shi.
 
-Her dedication has been recognized with honors such as First Prize in the National Chinese Classics Recitation Competition and the title of Outstanding Graduate of Zhejiang Province. Weiyi holds a Master of Music degree from Carnegie Mellon University and will begin the Graduate Performance Diploma in Opera Performance program at Boston Conservatory at Berklee this fall. She often integrates Mandarin poetry recitation into her performances, drawing on her background in classical recitation to create work that is both musically compelling and culturally resonant. Through cross-cultural expression, she hopes to bring people closer together. To her, opera is not just performance but shared storytelling, a moment of exchange with the audience that opens space for feeling, reflection, and change.
+Her dedication has been recognized with honors such as First Prize in the National Chinese Classics Recitation Competition and the title of Outstanding Graduate of Zhejiang Province. Weiyi holds a Master of Music degree from Carnegie Mellon University and is currently pursuing a Graduate Performance Diploma in Opera Performance at Boston Conservatory at Berklee. She often integrates Mandarin poetry recitation into her performances, drawing on her background in classical recitation to create work that is both musically compelling and culturally resonant. Through cross-cultural expression, she hopes to bring people closer together. To her, opera is not just performance but shared storytelling, a moment of exchange with the audience that opens space for feeling, reflection, and change.
 
 
 
